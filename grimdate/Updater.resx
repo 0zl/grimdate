@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Checksum" xml:space="preserve">
+    <value>https://github.com/0zl/grimlite/raw/main/checksum.txt</value>
+  </data>
+  <data name="CommitAPI" xml:space="preserve">
+    <value>https://api.github.com/repos/0zl/meow/commits</value>
+  </data>
+  <data name="CompareAPI" xml:space="preserve">
+    <value>https://api.github.com/repos/0zl/meow/compare/19a685bc59b334505041f0ce12d4bd46f4204029...</value>
+  </data>
+  <data name="EXE" xml:space="preserve">
+    <value>https://github.com/0zl/grimlite/raw/main/Grimoire.exe</value>
+  </data>
+  <data name="GrimConf" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;configuration&gt;
+    &lt;configSections&gt;
+        &lt;sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"&gt;
+            &lt;section name="Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false"/&gt;
+        &lt;/sectionGroup&gt;
+    &lt;/configSections&gt;
+    &lt;appSettings&gt;
+		&lt;add key="commitcode" value=""/&gt;
+		&lt;add key="commithash" value=""/&gt;
+	&lt;/appSettings&gt;
+	&lt;userSettings&gt;
+        &lt;Properties.Settings&gt;
+            &lt;setting name="Style" serializeAs="String"&gt;
+                &lt;value&gt;1&lt;/value&gt;
+            &lt;/setting&gt;
+        &lt;/Properties.Settings&gt;
+    &lt;/userSettings&gt;
+	&lt;runtime&gt;
+		&lt;assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"&gt;
+			&lt;probing privatePath="Libs" /&gt;
+		&lt;/assemblyBinding&gt;
+	&lt;/runtime&gt;
+&lt;startup&gt;&lt;supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2"/&gt;&lt;/startup&gt;&lt;/configuration&gt;</value>
+  </data>
+  <data name="Libs" xml:space="preserve">
+    <value>https://github.com/0zl/grimlite/raw/main/libs.txt</value>
+  </data>
+  <data name="SWF" xml:space="preserve">
+    <value>https://github.com/0zl/grimlite/raw/main/catgirl.swf</value>
+  </data>
+  <data name="UserConf" xml:space="preserve">
+    <value>AcceptQuestColor=FFA1F3F6
+CompleteQuestColor=FF9FA8FD
+BankListColor=FFAA87D6
+ClearTempColor=FF8C97A7
+BeepColor=FF8ADD92
+BlankColor=FFA380CD
+Blank2Color=FF86CFC9
+BotDelayColor=FF9B9E90
+ChangeColor=FF98E182
+ClientMessageColor=FFBBCAA8
+DelayColor=FFBF81E7
+GotoLabelColor=FFA6E5E8
+GotoPlayerColor=FFEA95FE
+IndexColor=FF80FFFF
+IntColor=FFE89A9C
+LabelColor=FFA093CF
+LoadBotColor=FF9FCF93
+ReturnColor=FFB6A8E3
+LogColor=FFF985D5
+LogoutColor=FFE586C5
+PacketDelayColor=FFFAEEBC
+PacketSpammerColor=FFADCB95
+PacketColor=FFBFE3F7
+RestartColor=FFA9B8EA
+StopColor=FFCEA1A8
+ToggleProvokeColor=FFA1B183
+CellIsColor=FFF3F8CD
+CellIsNotColor=FFB19CFB
+EquippedColor=FF9389D8
+FactionRankGreaterThanColor=FF82ACDE
+FactionRankLessThanColor=FF93848E
+GoldGreaterThanColor=FFB7E8B7
+GoldLessThanColor=FFEABACD
+HealthGreaterThanColor=FF86DFAF
+HealthLessThanColor=FFD8F595
+InBankColor=FFA8E686
+InCombatColor=FFBBD7D3
+InHouseColor=FFD1F08D
+InInventoryColor=FFF8C8D1
+InTempColor=FFC099C2
+IntEqualIntColor=FFBDBCB6
+IntGreaterThanColor=FF9795B3
+IntIsColor=FFDC96B8
+IntIsNotColor=FFF0B6F6
+IntLessThanColor=FFB5ED98
+IntNotEqualIntColor=FF9DD9A6
+IsMaxStackColor=FFE5EAA2
+IsMemberColor=FFD1C7D5
+IsNotMaxStackColor=FF8AC193
+IsNotMemberColor=FF80BF9F
+ItemNotPickupableColor=FFE4A9A0
+ItemPickupableColor=FF8BC8A2
+LevelGreaterThanColor=FFF8BFDF
+LevelIsColor=FFE1CCCF
+LevelLessThanColor=FFCCC9A0
+ListInInvColor=FFDC9B83
+ManaGreaterThanColor=FFF4DAEE
+ManaLessThanColor=FFABDAAE
+MapIsColor=FF9FEAF4
+MapIsNotColor=FFE08CD3
+MonsterInRoomColor=FF9FDBD6
+MonsterNotInRoomColor=FF988B8C
+MonstersGreaterThanColor=FFD5A9A4
+MonstersLessThanColor=FFF4A498
+NotEquippedColor=FFC6829D
+NotInBankColor=FFD284FC
+NotInCombatColor=FFB4AEA5
+NotInHouseColor=FF908AE4
+NotInInventoryColor=FFAFB9CE
+NotInTempColor=FFF1EBDD
+PlayerInRoomColor=FFAD97B3
+PlayerIsInCellColor=FF8BC2F0
+PlayerIsInMyCellColor=FFF8B3BD
+PlayerIsNotInCellColor=FF9286F1
+PlayerIsNotInMyCellColor=FFDE7FB5
+PlayerNotInRoomColor=FFD5E4D7
+PlayersGreaterThanColor=FF90CCE6
+PlayersLessThanColor=FFF7ABDD
+QuestAvailableColor=FFAD8ED0
+QuestCompletedColor=FFF1E8D1
+QuestInProgressColor=FFBDE3BD
+QuestNotAvailableColor=FFC6C68C
+QuestNotCompletedColor=FFE5B9C0
+QuestNotInProgressColor=FFADD9D0
+SetVarColor=FFBEA1A7
+UpdateVarColor=FFB4B18A
+JoinColor=FFAED9D4
+MoveToCellColor=FFF6E19E
+SetSpawnColor=FFF6B5EB
+TravelColor=FFD4DEB3
+WalkColor=FF9F86CA
+YulgarColor=FFEBD4A2
+LoadTravelColor=FFB297B8
+WhitelistColor=FFA9EFAA
+BankSwapColor=FF96E2F2
+BankTransferColor=FF95B889
+BuyColor=FFB5F8DC
+BuyBackColor=FFC5C28E
+BuyFastColor=FFFCC682
+EquipColor=FF9ECF90
+EquipSetColor=FFA08FDA
+GetDropColor=FF8C8DD3
+LoadColor=FF85D2CC
+MapItemColor=FF848099
+SellColor=FFD185E9
+AttackColor=FFA9DFFE
+KillColor=FFABE0FC
+KillForColor=FFE19EE5
+RestColor=FFD5D9C3
+UseSkillColor=FFBBEE8D
+SkillSetColor=FF9F93C7
+ExtendedVariableColor=FFFFFF80
+VariableColor=FFFF80C0</value>
+  </data>
+</root>
