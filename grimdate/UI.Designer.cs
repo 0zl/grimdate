@@ -74,6 +74,7 @@ namespace grimdate
             this.HardUpdateDone.Size = new System.Drawing.Size(123, 13);
             this.HardUpdateDone.TabIndex = 3;
             this.HardUpdateDone.Text = "Downloaded. Have Fun.";
+            this.HardUpdateDone.UseWaitCursor = true;
             this.HardUpdateDone.Visible = false;
             // 
             // UI
@@ -96,6 +97,7 @@ namespace grimdate
             this.Text = "GrimLite";
             this.TopMost = true;
             this.UseWaitCursor = true;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.UI_FormClosing);
             this.Load += new System.EventHandler(this.Updater_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

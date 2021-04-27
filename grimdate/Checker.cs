@@ -16,21 +16,30 @@ namespace grimdate
         {
             IDictionary<string, string> Checksum = new Dictionary<string, string>();
 
-            FileStream exe, swf;
+            FileStream exe,  swf;
             string     hexe, hswf;
             byte[]     bexe, bswf;
-            
-            exe  = File.OpenRead($@"{_CurrentPath}/Grimoire.exe");
-            bexe = new SHA256CryptoServiceProvider().ComputeHash(exe);
-            hexe = BitConverter.ToString(bexe).Replace("-", String.Empty);
 
-            swf  = File.OpenRead($@"{_CurrentPath}/catgirl.swf");
-            bswf = new SHA256CryptoServiceProvider().ComputeHash(swf);
-            hswf = BitConverter.ToString(bswf).Replace("-", String.Empty);
+            if (File.Exists($@"{_CurrentPath}/Grimoire.exe"))
+            {
+                exe = File.OpenRead($@"{_CurrentPath}/Grimoire.exe");
+                bexe = new SHA256CryptoServiceProvider().ComputeHash(exe);
+                hexe = BitConverter.ToString(bexe).Replace("-", String.Empty);
+                exe.Close();
+            } else
+                hexe = string.Empty;
+
+            if (File.Exists($@"{_CurrentPath}/catgirl.swf"))
+            {
+                swf = File.OpenRead($@"{_CurrentPath}/catgirl.swf");
+                bswf = new SHA256CryptoServiceProvider().ComputeHash(swf);
+                hswf = BitConverter.ToString(bswf).Replace("-", String.Empty);
+                swf.Close();
+            } else
+                hswf = string.Empty;
 
             Checksum.Add("exe", hexe);
             Checksum.Add("swf", hswf);
-
             return Checksum;
         }
 
@@ -108,11 +117,10 @@ namespace grimdate
         {
             if (!Directory.Exists("Libs"))
                 return 0;
+            else if (CheckVersion())
+                return 1;
             else
-                if (CheckVersion())
-                    return 1;
-                else
-                    return 2;
+                return 2;
         }
     }
 

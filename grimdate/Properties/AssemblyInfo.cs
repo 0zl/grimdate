@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("grimdate")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Grimdate")]
+[assembly: AssemblyDescription("Grimlite Updater")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("grimdate")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCompany("0zl")]
+[assembly: AssemblyProduct("Grimdate")]
+[assembly: AssemblyCopyright("Copyright © 0zl")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

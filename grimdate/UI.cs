@@ -306,5 +306,11 @@ namespace grimdate
             HardUpdate();
         }
         #endregion
+
+        private void UI_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            TH.Abort();
+            this.Dispose();
+        }
     }
 }
